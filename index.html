@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Navbar</title>
+  <link rel="stylesheet" href="style.css">
+  
+</head>
+<body>
+
+<!-- Navbar Section -->
+<nav>
+  <div class="logo">MyLogo</div>
+  <!-- Navbar links (Initially hidden on mobile) -->
+  <div class="nav-links">
+    <a href="#home" onclick="closeMenu()">Home</a>
+    <a href="#about" onclick="closeMenu()">About</a>
+    <a href="#education" onclick="closeMenu()">Education</a>
+    <a href="#skills" onclick="closeMenu()">Skills</a>
+    <a href="#projects" onclick="closeMenu()">Projects</a>
+    <a href="#contact" onclick="closeMenu()">Contact</a>
+  </div>
+  <!-- Burger Menu Icon -->
+  <div class="container" onclick="toggleMenu()">
+    <div class="bar1"></div>
+    <div class="bar2"></div>
+    <div class="bar3"></div>
+  </div>
+</nav>
+
+<!-- Sections for Smooth Scroll -->
+<section id="home">
+  <h1>Home Section</h1>
+</section>
+<section id="about">
+  <h1>About Section</h1>
+</section>
+<section id="education">
+  <h1>Education Section</h1>
+</section>
+<section id="skills">
+  <h1>Skills Section</h1>
+</section>
+<section id="projects">
+  <h1>Projects Section</h1>
+</section>
+<section id="contact">
+  <h1>Contact Section</h1>
+</section>
+
+
+<script src="script.js"></script>
+</body>
+</html>
